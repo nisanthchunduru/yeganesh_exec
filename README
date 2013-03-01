@@ -1,0 +1,7 @@
+Executes the menu item selected by Yeganesh (http://dmwit.com/yeganesh/)
+Could have used a simple shell script..
+
+#!/bin/sh
+exec $(yeganesh -x)
+
+..to do the same, however a C executable is a tad bit quicker
